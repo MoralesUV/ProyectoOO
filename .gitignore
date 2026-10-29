@@ -1,0 +1,53 @@
+# ---- Java: archivos compilados ----
+*.class
+
+# Carpetas de salida de compilación
+bin/
+out/
+build/
+target/
+
+# Archivos de logs
+*.log
+
+# ---- Herramientas de construcción ----
+# Maven
+.mvn/
+mvnw
+mvnw.cmd
+# Gradle
+.gradle/
+gradlew
+gradlew.bat
+
+# ---- IDEs y editores ----
+# IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+# Eclipse
+.classpath
+.project
+.settings/
+# NetBeans
+nbproject/
+nbbuild/
+nbdist/
+# VS Code
+.vscode/
+
+# ---- Sistema operativo ----
+# Windows
+Thumbs.db
+Desktop.ini
+# macOS
+.DS_Store
+
+# ---- Archivos temporales ----
+*.tmp
+*.bak
+*~
+
+# ---- Configuración de Kiro (no se publica) ----
+.kiro/
